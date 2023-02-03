@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2395" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/android_sma.xml" value="0.228" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/bee.xml" value="0.2395" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/bee_1.xml" value="0.225" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/color_yellow.xml" value="0.176" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2735" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/ic_mic.xml" value="0.2005" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/ic_right.xml" value="0.2005" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rb_cirle.xml" value="0.176" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rb_new_circle.xml" value="0.1935" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rb_white_top_left_top_right.xml" value="0.176" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rectangle_1.xml" value="0.2725" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rectangle_2.xml" value="0.19" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rectangle_3.xml" value="0.2675" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/rectangle_4.xml" value="0.19" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/drawable/vien.xml" value="0.176" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout-v31/activity_sign_in.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_custom_grid_adapter.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_detail_vocab.xml" value="0.264" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_forgot_password.xml" value="0.26875" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_introduction.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_language_translator.xml" value="0.22727272727272727" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_main2.xml" value="0.22631578947368422" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_main3.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_main_page.xml" value="0.253125" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_news.xml" value="0.2" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_news_detail.xml" value="0.264" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_note.xml" value="0.1" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_quick_test.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_test_result.xml" value="0.25" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/activity_test_vocab.xml" value="0.22631578947368422" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/category_news_toeic.xml" value="0.2" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/fragment_1.xml" value="0.22631578947368422" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/fragment_2.xml" value="0.21447368421052632" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/news_about_part_of_toeic.xml" value="0.22631578947368422" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/news_about_toeic.xml" value="0.264" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/news_ielts.xml" value="0.22631578947368422" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/news_toeic.xml" value="0.264" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/spinner_item.xml" value="0.26875" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/layout/vocab_topic.xml" value="0.22631578947368422" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2395" />
+        <entry key="..\:/Android project/BUMBEE/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2395" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

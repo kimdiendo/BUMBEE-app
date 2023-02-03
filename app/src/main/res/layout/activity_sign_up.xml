@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_sma"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/android_sma"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.SignUpActivity">
+
+    <ImageView
+        android:id="@+id/bee"
+        android:layout_width="@dimen/_123sdp"
+        android:layout_height="@dimen/_126sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="131dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/bee"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <TextView
+        android:id="@+id/bumbee"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="155dp"
+        android:gravity="center_horizontal|top"
+        android:text="Welcome to Bee Vocabulary"
+        android:textAppearance="@style/bumbee"
+        android:textSize="@dimen/_17sdp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="207dp"
+        android:gravity="center_horizontal|top"
+        android:minHeight="48dp"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="16sp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/_12sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="313dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="5dp"
+                android:inputType="text"
+                android:hint="@string/user_name"
+                android:textColor="@color/white"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="322dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="365dp"
+        android:gravity="center_horizontal|top"
+        android:minHeight="48dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/_12sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="321dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="12dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="322dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center_horizontal|top"
+        android:minHeight="48dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/_12sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/re_password"
+                android:layout_width="321dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="4dp"
+                android:hint="@string/re_password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="327dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="288dp"
+        android:gravity="center_horizontal|top"
+        android:minHeight="48dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/_12sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="321dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="9dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="183dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="91dp"
+        android:background="@color/primary"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/by_signing_"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="566dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/by_signing_"
+        android:textAppearance="@style/by_signing_"
+        android:textColor="#FAFAFA" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/already_hav"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="613dp"
+        android:gravity="center_horizontal|top"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="@dimen/_12sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/already_hav"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_SignUp"
+        android:layout_width="118dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="506dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/_12sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="15dp"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
