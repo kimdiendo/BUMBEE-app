@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77745B"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="146dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="228dp"
+        android:background="@drawable/rb_new_circle"
+        android:text="Quick Test"
+        android:textColor="#FFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="373dp"
+        android:layout_height="601dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/Fragment1"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_weight="10"></androidx.fragment.app.FragmentContainerView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/Fragment2"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:layout_weight="9"></androidx.fragment.app.FragmentContainerView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
